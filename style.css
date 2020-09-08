@@ -1,4 +1,4 @@
-.header-logo__text {
+.logo__text {
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
@@ -6,7 +6,7 @@
   line-height: 32px;
 }
 
-.header-nav__link {
+.nav__link {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -14,7 +14,7 @@
   line-height: 21px;
 }
 
-.section-main__title {
+.main-content__title {
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
@@ -22,7 +22,7 @@
   line-height: 87px;
 }
 
-.section-main__text {
+.main-content__text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -30,7 +30,7 @@
   line-height: 26px;
 }
 
-.section-main__btn {
+.main-content__btn {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
