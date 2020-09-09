@@ -1,0 +1,39 @@
+.logo__text {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.nav__link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.main-content__title {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+}
+
+.main-content__text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.main-content__btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
