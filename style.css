@@ -92,13 +92,13 @@ body {
 
 .main-content__title {
   font: normal bold 66px/87px 'PT Serif', serif;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
 }
 
 
 .main-content__text {
   max-width: 455px;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   font: normal normal 22px/26px 'Roboto', sans-serif;
 }
 
