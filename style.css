@@ -67,15 +67,12 @@ body {
     height: 3px;
     background: #0056EC;
     opacity: 0;
+    transition: opacity .5s;
   }
+
   .nav__link:hover,
   .nav__link:focus {
     opacity: .5;
-    color: #13d0ed;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: all 1s linear;
   }
 
   .nav__link:hover::after, .nav__link_active::after {
