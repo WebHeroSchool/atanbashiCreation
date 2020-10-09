@@ -261,6 +261,7 @@ body {
   .wrapper {
     max-width: 68%;
     max-height: 70%;
+    height: initial;
   }
   .header {
     padding: 0;
@@ -277,14 +278,27 @@ body {
   .nav__link {
     font-size: 14px;
     line-height: 16px;
+    padding-top: 10px;
+  }
+
+  .main {
+    padding-top: 10px;
+    background-size: 55%;
+    background-position: right 85px;
+  }
+
+  .main__title {
+    margin-bottom: 38px;
   }
 
   .main__text {
     max-width: 355px;
+    margin-bottom: 40px;
   }
 
   .main__btn {
     max-width: 170px;
+    height: 80%;
   }
 }
 
@@ -299,16 +313,27 @@ body {
 }
 
 @media all and (max-width: 1042px) {
+
+  .wrapper {
+    max-width: 93%;
+  }
+
+  .nav {
+    width: 315px;
+    padding-right: 0;
+  }
+
+  .main {
+    background-size: 55%;
+  }
+}
+
+@media all and (max-width: 1000px) {
   .main__title {
     font-size: 30px;
     line-height: 40px;
   }
-
-  .main {
-    background-size: 50%;
-  }
 }
-
 @media all and (max-width: 600px) {
   .wrapper {
     display: block;
