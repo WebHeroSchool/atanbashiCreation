@@ -29,8 +29,21 @@ body {
 
 .logo__text {
   font: normal bold 24px/32px 'PT Serif', serif;
+  animation: text-flash 3s ease-in-out infinite alternate-reverse;
 }
 
+@keyframes text-flash{
+  0%{
+    font-size: 100%;
+}
+  50%{
+    font-size: 115%;
+    color: #ffa500;
+  }
+  100%{
+    font-size: 130%;
+}
+}
 .nav {
   display: flex;
   overflow: hidden; /* burger line */
