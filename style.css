@@ -29,21 +29,8 @@ body {
 
 .logo__text {
   font: normal bold 24px/32px 'PT Serif', serif;
-  animation: text-flash 3s ease-in-out infinite alternate-reverse;
 }
 
-@keyframes text-flash{
-  0%{
-    font-size: 100%;
-}
-  50%{
-    font-size: 115%;
-    color: #ffa500;
-  }
-  100%{
-    font-size: 130%;
-}
-}
 .nav {
   display: flex;
   overflow: hidden; /* burger line */
@@ -232,6 +219,22 @@ body {
   text-decoration: none;
   border-radius: 4px;
   border: solid 1px transparent;
+  animation: btn-flash 1s infinite;
+}
+
+@keyframes btn-flash {
+  0% {
+  background-color: #0056EC;
+  box-shadow: 0 0 5px #7faaf5;
+  }
+  50% {
+  background-color: #00338d;
+  box-shadow: 0 0 20px #00338d;
+  }
+  100% {
+  background-color: #0056EC;
+  box-shadow: 0 0 5px #7faaf5;
+  }
 }
 
 .main__btn:hover {
